@@ -1,7 +1,7 @@
 import React from "react";
 import Exercise from "../Exercise/Exercise";
 
-const Exercises = ({ exercises, setTime }) => {
+const Exercises = ({ exercises, time, setTime }) => {
   return (
     <div>
       <h1 className="text-4xl font-bold mb-10">Exercises Hub</h1>
@@ -11,6 +11,7 @@ const Exercises = ({ exercises, setTime }) => {
         {exercises.map((exercise) => (
           <Exercise
             key={exercise.id}
+            time={time}
             exercise={exercise}
             setTime={setTime}
           ></Exercise>

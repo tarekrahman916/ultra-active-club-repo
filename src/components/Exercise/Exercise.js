@@ -1,9 +1,13 @@
 import React from "react";
 
-const Exercise = ({ exercise, setTime }) => {
+const Exercise = ({ exercise, time, setTime }) => {
   const { name, img, minutes, age, description } = exercise;
 
-  const handleAddToList = (e) => {};
+  const handleAddToList = (e) => {
+    const newTime = time + minutes;
+    setTime(newTime);
+    e.currentTarget.innerText = "Added";
+  };
   return (
     <div className="mt-5">
       <div className="card bg-base-100 shadow-xl">
