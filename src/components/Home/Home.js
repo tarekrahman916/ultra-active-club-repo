@@ -18,7 +18,7 @@ const Home = () => {
   //console.log(exercises);
 
   return (
-    <div className="home lg:mx-16">
+    <div className="home lg:ml-10">
       <div className="exercises-container mt-10">
         <Exercises
           exercises={exercises}

@@ -1,0 +1,20 @@
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.info {
+  position: sticky;
+  top: 0;
+}
+
+.personal-info {
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.break-btn {
+  border-radius: 50%;
+  text-transform: lowercase;
+}
