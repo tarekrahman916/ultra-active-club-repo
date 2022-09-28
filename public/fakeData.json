@@ -2,15 +2,15 @@
   {
     "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
     "name": "Lunges",
-    "img": "https://images.pexels.com/photos/6303729/pexels-photo-6303729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "minutes": 1,
+    "img": "https://images.pexels.com/photos/5067670/pexels-photo-5067670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "minutes": 30,
     "age": "22-30",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio accusamus dolore tempore, vel ab!"
   },
   {
     "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
     "name": "Pushups",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://images.pexels.com/photos/176782/pexels-photo-176782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "minutes": 1,
     "age": "22-30",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio accusamus dolore tempore, vel ab!"
@@ -18,7 +18,7 @@
   {
     "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
     "name": "Squats",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://images.pexels.com/photos/371049/pexels-photo-371049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "minutes": 1,
     "age": "22-30",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio accusamus dolore tempore, vel ab!"
