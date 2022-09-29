@@ -24,7 +24,7 @@ const Summary = ({ time }) => {
   }, []);
 
   const handleSuccessMsg = () => {
-    Swal.fire("Good job!", "Activity Completed Successfully", "success");
+    Swal.fire("Congratulations!", "Activity Completed Successfully", "success");
   };
 
   return (

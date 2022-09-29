@@ -7,15 +7,11 @@ const Home = () => {
   const [exercises, setExercises] = useState([]);
   const [time, setTime] = useState(0);
 
-  //console.log(time);
-
   useEffect(() => {
     fetch("fakeData.json")
       .then((res) => res.json())
       .then((data) => setExercises(data));
   }, []);
-
-  //console.log(exercises);
 
   return (
     <div className="home lg:ml-10">

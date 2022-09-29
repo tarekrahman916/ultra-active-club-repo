@@ -9,6 +9,7 @@ const Exercise = ({ exercise, time, setTime }) => {
     setTime(newTime);
     e.currentTarget.innerText = "Added";
   };
+
   return (
     <div className="mt-5">
       <div className="card bg-base-100 shadow-xl">
@@ -19,7 +20,7 @@ const Exercise = ({ exercise, time, setTime }) => {
           <h2 className="card-title">{name}</h2>
           <p>{description}</p>
           <p>For Age: {age}</p>
-          <p>Time required: {minutes} min :</p>
+          <p className="font-semibold">Time required: {minutes} min :</p>
         </div>
         <button onClick={handleAddToList} className="btn">
           Add To List
