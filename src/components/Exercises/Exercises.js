@@ -1,11 +1,15 @@
 import React from "react";
 import "./Exercises.css";
 import Exercise from "../Exercise/Exercise";
+import logo from "../../images/logo.png";
 
 const Exercises = ({ exercises, time, setTime }) => {
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-10">Exercise Hub</h1>
+      <div className="flex  align-middle mb-10">
+        <img className="logo" src={logo} alt="" />
+        <h1 className="text-4xl font-bold mt-10">FITNESS FINEST</h1>
+      </div>
       <h2 className="text-2xl">Select today’s exercise</h2>
 
       <div className="grid lg:grid-cols-3 md:grid-cols-1  gap-3">
