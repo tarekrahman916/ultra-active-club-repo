@@ -6,6 +6,12 @@
 
 @media screen and (max-width: 992px) {
   .home {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .home {
     grid-template-columns: 1fr;
   }
 

@@ -12,7 +12,7 @@ const Exercises = ({ exercises, time, setTime }) => {
       </div>
       <h2 className="text-2xl">Select today’s exercise</h2>
 
-      <div className="grid lg:grid-cols-3 md:grid-cols-1  gap-3 ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-1   gap-3 ">
         {exercises.map((exercise) => (
           <Exercise
             key={exercise.id}
