@@ -19,7 +19,7 @@ const Home = () => {
 
   return (
     <div className="home lg:ml-10">
-      <div className="exercises-container mt-10">
+      <div className="exercises-container mt-5">
         <Exercises
           exercises={exercises}
           time={time}

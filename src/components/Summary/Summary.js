@@ -9,13 +9,13 @@ const Summary = ({ time }) => {
 
   const handleBreakTime = (e) => {
     const times = e.currentTarget.innerText;
-    localStorage.setItem("break", parseInt(times));
-    const storageBreaks = localStorage.getItem("break");
+    localStorage.setItem("break-time", parseInt(times));
+    const storageBreaks = localStorage.getItem("break-time");
     setBTime(parseInt(storageBreaks));
   };
 
   useEffect(() => {
-    const storageBreaks = localStorage.getItem("break");
+    const storageBreaks = localStorage.getItem("break-time");
     if (storageBreaks) {
       setBTime(parseInt(storageBreaks));
     } else {
@@ -55,7 +55,7 @@ const Summary = ({ time }) => {
             <p className="text-lg font-bold">Age</p>
           </div>
         </div>
-        <hr />
+
         <div className="mt-8">
           <h3 className="text-2xl font-semibold text-gray-700">Add a break</h3>
           <div className=" flex gap-4 justify-center mt-5 bg-gray-100">
@@ -74,13 +74,13 @@ const Summary = ({ time }) => {
           <h3 className="text-2xl font-semibold text-gray-700">
             Exercise Details
           </h3>
-          <div className="flex justify-around mt-3  bg-gray-200 py-5 rounded">
+          <div className="flex justify-around mt-3  bg-gray-200 py-2 rounded">
             <h2 className="text-lg font-semibold">Exercise time:</h2>
             <h2>{time} minutes</h2>
           </div>
         </div>
         <div className="mt-7">
-          <div className="flex justify-around mt-5  bg-gray-200 py-5 rounded ">
+          <div className="flex justify-around mt-5  bg-gray-200 py-2 rounded ">
             <h2 className="text-lg font-semibold">Break time:</h2>
             <h2>{bTime} minutes</h2>
           </div>

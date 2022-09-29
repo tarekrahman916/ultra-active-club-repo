@@ -52,13 +52,8 @@ const Blog = () => {
 
           <p className="blog-desc mt-3 mx-10 text-lg font-semibold text-gray-800 text-justify">
             The useEffect Hook allows you to perform side effects in your
-            components. Some examples of side effects are:
-            <ul className="font-normal pl-5 list-disc">
-              <li>Directly updating the DOM</li>
-              <li>Set Timer</li>
-              <li>useState Update</li>
-              <li>Any Side Effect etc.</li>
-            </ul>
+            components. Some examples of side effects are:Directly updating the
+            DOM,Set Timer,useState Update,Any Side Effect etc.
           </p>
         </div>
       </div>
