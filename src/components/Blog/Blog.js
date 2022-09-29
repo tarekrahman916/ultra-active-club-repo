@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className="md:p-10 p-5">
       <div className="title mb-10 ">
-        <h2 className="text-3xl mt-5 mb-2">All Blogs</h2>
+        <h2 className="text-3xl mt-5 mb-2">Questions Answer</h2>
         <hr className="mx-auto rounded-2xl" />
       </div>
       <div>

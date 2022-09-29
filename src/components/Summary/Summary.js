@@ -28,7 +28,7 @@ const Summary = ({ time }) => {
   };
 
   return (
-    <div className="summary border bg-white h-full p-5">
+    <div className="summary border bg-white h-full p-10">
       <div className="info">
         <div className=" flex justify-center align-middle">
           <img className="profile-img" src={profile} alt="" />
