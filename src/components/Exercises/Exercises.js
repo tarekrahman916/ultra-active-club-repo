@@ -5,7 +5,7 @@ import logo from "../../images/logo.png";
 
 const Exercises = ({ exercises, time, setTime }) => {
   return (
-    <div className="p-10 lg:p-5">
+    <div className="lg:p-5 p-10 ">
       <div className="flex align-middle mb-10 ">
         <img className="logo" src={logo} alt="" />
         <h1 className="text-4xl font-bold mt-10">FITNESS FINEST</h1>
