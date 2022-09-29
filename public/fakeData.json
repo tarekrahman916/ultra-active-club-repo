@@ -46,29 +46,5 @@
     "minutes": 1,
     "age": "22-30",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio accusamus dolore tempore, vel ab!"
-  },
-  {
-    "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
-    "name": "Side planks",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-    "minutes": 1,
-    "age": "22-30",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio accusamus dolore tempore, vel ab!"
-  },
-  {
-    "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
-    "name": "Planks",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-    "minutes": 1,
-    "age": "22-30",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio accusamus dolore tempore, vel ab!"
-  },
-  {
-    "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
-    "name": "Glute bridge",
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-    "minutes": 1,
-    "age": "22-30",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam optio accusamus dolore tempore, vel ab!"
   }
 ]

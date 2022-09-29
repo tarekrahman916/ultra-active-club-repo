@@ -1,4 +1,5 @@
 import React from "react";
+import "./Exercise.css";
 
 const Exercise = ({ exercise, time, setTime }) => {
   const { name, img, minutes, age, description } = exercise;

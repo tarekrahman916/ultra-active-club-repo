@@ -3,3 +3,17 @@
   grid-template-columns: 5fr 2fr;
   gap: 10px;
 }
+
+@media screen and (max-width: 992px) {
+  .home {
+    grid-template-columns: 1fr;
+  }
+
+  .exercises-container {
+    order: 1;
+  }
+
+  .summary-container {
+    order: 0;
+  }
+}
