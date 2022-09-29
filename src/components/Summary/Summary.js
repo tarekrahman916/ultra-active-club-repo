@@ -8,7 +8,6 @@ const Summary = ({ time }) => {
   const [bTime, setBTime] = useState(0);
 
   const handleBreakTime = (e) => {
-    // console.log(e.currentTarget.innerText);
     const times = e.currentTarget.innerText;
     localStorage.setItem("break", parseInt(times));
     const storageBreaks = localStorage.getItem("break");
@@ -17,7 +16,11 @@ const Summary = ({ time }) => {
 
   useEffect(() => {
     const storageBreaks = localStorage.getItem("break");
-    setBTime(parseInt(storageBreaks));
+    if (storageBreaks) {
+      setBTime(parseInt(storageBreaks));
+    } else {
+      setBTime(0);
+    }
   }, []);
 
   const handleSuccessMsg = () => {
@@ -71,13 +74,13 @@ const Summary = ({ time }) => {
           <h3 className="text-2xl font-semibold text-gray-700">
             Exercise Details
           </h3>
-          <div className="flex justify-around mt-3  bg-gray-200 py-5">
+          <div className="flex justify-around mt-3  bg-gray-200 py-5 rounded">
             <h2 className="text-lg font-semibold">Exercise time:</h2>
             <h2>{time} minutes</h2>
           </div>
         </div>
         <div className="mt-7">
-          <div className="flex justify-around mt-5  bg-gray-200 py-5">
+          <div className="flex justify-around mt-5  bg-gray-200 py-5 rounded ">
             <h2 className="text-lg font-semibold">Break time:</h2>
             <h2>{bTime} minutes</h2>
           </div>
@@ -86,7 +89,7 @@ const Summary = ({ time }) => {
           onClick={handleSuccessMsg}
           className="btn btn-success w-full mt-5 mb-10"
         >
-          Success
+          Activity Completed
         </button>
       </div>
     </div>

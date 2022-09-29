@@ -1,0 +1,14 @@
+hr {
+  border: none;
+  border-top: 3px solid gray;
+  width: 25%;
+  margin: 0;
+}
+.title {
+  text-align: center;
+}
+
+/* .blog-desc {
+  font-size: 18px;
+  font-weight: 400;
+} */
