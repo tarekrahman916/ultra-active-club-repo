@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Summary.css";
 import profile from "../../images/profile.png";
+import Swal from "sweetalert2";
 
 const Summary = ({ time }) => {
   const breakTimes = [10, 20, 30, 40, 50];
@@ -18,6 +19,10 @@ const Summary = ({ time }) => {
     const storageBreaks = localStorage.getItem("break");
     setBTime(parseInt(storageBreaks));
   }, []);
+
+  const handleSuccessMsg = () => {
+    Swal.fire("Good job!", "Activity Completed Successfully", "success");
+  };
 
   return (
     <div className="summary border bg-white h-full p-5">
@@ -77,7 +82,12 @@ const Summary = ({ time }) => {
             <h2>{bTime} minutes</h2>
           </div>
         </div>
-        <button className="btn btn-success w-full mt-5 mb-10">Success</button>
+        <button
+          onClick={handleSuccessMsg}
+          className="btn btn-success w-full mt-5 mb-10"
+        >
+          Success
+        </button>
       </div>
     </div>
   );
